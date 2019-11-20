@@ -1,0 +1,55 @@
+html {
+	box-sizing:border-box;
+}
+*,*:before, *:after{
+	box-sizing:inherit;
+}
+body
+{background-color:#33383e;
+color:#ffffff;
+}
+/*header, breakfast, dessert*/
+.flex{
+	display:flex;
+}
+.flex li{
+	list-style:none;
+	margin-left:0.7em;
+	
+	}
+ul li a {
+	text-decoration:none;
+	color:#ffffff;
+}
+aside{
+	align-self:center;
+}
+.hidden{
+	display:none;
+}
+/*lunch*/
+.flex-lunch{
+	display:flex;
+	flex-flow:row wrap;
+}
+.flex-lunch li{
+	flex:1 0 33.3%;
+	margin-bottom:1em;
+	list-style:none;
+}
+.flex-lunch li:nth-child(2n){
+	border:1px solid #939699;
+}
+/*dinner*/
+.flex-dinner{
+	display:flex;
+	flex-flow:row wrap;
+}
+.flex-dinner li{
+	flex:1 0 33.3%;
+	margin-bottom:1em;
+	list-style:none;
+}
+.flex-dinner li:nth-child(2n){
+	border:1px solid #939699;
+}

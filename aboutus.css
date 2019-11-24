@@ -53,3 +53,39 @@ header {
   margin: 0 auto;
   position: relative;
 }
+
+footer{
+  position: relative;
+}
+.social-icons{
+  position: absolute;
+  bottom: 45px;
+  right: 0;
+}
+.social-icons a > img{
+  width: 25px;
+  height: 25px;
+  margin-left: 10px;
+}
+.copyright{
+  position: absolute;
+  bottom: 45px;
+  left: 0;
+  color: #9f9fa094;
+}
+@media all and (max-width: 1200px){
+  .container{
+    max-width: 1000px;
+  }
+  .btn{
+    width: 140px;
+  }
+}
+@media all and (max-width: 1024px ){
+  .container{
+    max-width: 900px;
+  }
+  .btn{
+    width: 130px;
+  }
+}

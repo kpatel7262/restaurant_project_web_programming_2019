@@ -4,21 +4,28 @@ html {
 *,*:before, *:after{
 	box-sizing:inherit;
 }
-body
-{background-color:#33383e;
-color:#ffffff;
+body{
+height:100vh;
+background:url('../images/breakfast/background.jpg');
+color:#fff;
 font-size:1em;
 margin:0;
+font-family: 'Open Sans', sans-serif;
 }
 
 /*header, breakfast, dessert*/
-.flex-header, .flex-nav, .flex{
+.flex-header, .flex-nav{
 	display:flex;
 }
-.flex-header li, .flex-nav li{
+.flex-breakfast, .flex-drinks{
+	display:flex;
+	flex-flow:row wrap;
+}
+.flex-header li, .flex-nav li, .flex-breakfast li{
 	list-style:none;
 	margin-left:0.7em;
 }
+
 #logo {
 	flex:1 0 50%;
 	margin-left:2em;
@@ -27,11 +34,11 @@ margin:0;
 	flex:1 0 50%;
 	margin-right:1em;
 }
-header{
+/*header{
 	background-color:#23272a;
-}
+}*/
 
-h1{
+h2{
 	text-align:center;
 }
 ul li a {

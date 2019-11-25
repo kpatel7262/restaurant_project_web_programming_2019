@@ -1,0 +1,44 @@
+/*------Gift card css--------*/
+
+main.container{
+  margin: 50px;
+  color: white;
+}
+
+
+main h2{
+  margin: 20px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.cards {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  text-align: center;
+  border-width:1px;
+  border-style: solid;
+  border-color: #94979a;
+  margin:20px;
+
+}
+
+.rating {
+  color: #b2b2b7;
+  margin: 20px 3px;
+  text-align: center;
+}
+
+.cards p{
+  margin: 10px 50px;
+  color: #adacb2;
+  text-align: justify;
+}
+
+div input{
+  height: 40px;
+  width: 25%;
+  margin: 20px;
+  cursor: pointer;
+}

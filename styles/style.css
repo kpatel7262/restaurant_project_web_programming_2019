@@ -4,21 +4,28 @@ html {
 *,*:before, *:after{
 	box-sizing:inherit;
 }
-body
-{background-color:#33383e;
-color:#ffffff;
+body{
+height:100vh;
+background:url('../images/breakfast/background.jpg');
+color:#fff;
 font-size:1em;
 margin:0;
+font-family: 'Open Sans', sans-serif;
 }
 
 /*header, breakfast, dessert*/
-.flex-header, .flex-nav, .flex{
+.flex-header, .flex-nav, .flex-footer{
 	display:flex;
+}
+.flex-breakfast, .flex-drinks,.flex-dessert{
+	display:flex;
+	flex-flow:row wrap;
 }
 .flex-header li, .flex-nav li{
 	list-style:none;
 	margin-left:0.7em;
 }
+
 #logo {
 	flex:1 0 50%;
 	margin-left:2em;
@@ -27,11 +34,11 @@ margin:0;
 	flex:1 0 50%;
 	margin-right:1em;
 }
-header{
+/*header{
 	background-color:#23272a;
-}
+}*/
 
-h1{
+h2{
 	text-align:center;
 }
 ul li a {
@@ -46,20 +53,20 @@ aside{
 	display:none;
 }
 /*lunch*/
-.flex-lunch{
+.flex-lunch, .flex-dinner{
 	display:flex;
 	flex-flow:row wrap;
 }
-.flex-lunch li{
+.flex-lunch li, .flex-dinner li, .flex-breakfast li, .flex-dessert li, .flex-drinks li{
 	flex:1 0 33.33%;
 	margin-bottom:1em;
 	list-style:none;
 }
-.flex-lunch li:nth-child(2n){
+.flex-lunch li:nth-child(2n), .flex-dinner li:nth-child(2n){
 	border:1px solid #939699;
 }
 
-/*dinner*/
+/*dinner
 .flex-dinner{
 	display:flex;
 	flex-flow:row wrap;
@@ -71,4 +78,9 @@ aside{
 }
 .flex-dinner li:nth-child(2n){
 	border:1px solid #939699;
+}*/
+.social-icons img{
+  width: 25px;
+  height: 25px;
+  margin-left: 10px;
 }

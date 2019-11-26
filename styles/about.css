@@ -12,7 +12,7 @@ html {
 
 body {
   height: 100vh;
-  background-image: url('home-images/bg.jpg');
+  background-image: url('../images/bg.jpg');
   color: #fff;
 }
 
@@ -57,70 +57,50 @@ main{
   margin: 0 auto;
   position: relative;
 }
-.right-col img{
-  max-width: 100%;
-  padding-top: 50px;
-}
-.right-col{
-  position: absolute;
-  bottom: 0;
-  height: 100%;
-  width: 55%;
-  right: 0;
-}
-.left-col{
-  position: absolute;
-  width: 35%;
-  left: 0;
-  text-align: center;
-  top: 50%;
-  transform: translateY(-50%);
-}
 .logo-main{
-  height: 85px;
-  width: auto;
+  width: 10em;
+  margin: 0px auto 0;
+  padding-top: 60px;
 }
-.left-col p{
-  font-family: 'Ovo', serif;
-  font-size: 25px;
-  line-height: 1.5;
+.logo-main img{
+  max-width: 100%;
 }
-.buttons{
-  margin-top: 60px;
+
+.about-nav{
+  display: block;
+  margin: 2em 0;
 }
-.btn{
-  border: none;
-  background: none;
-  width: 180px;
-  height: 42px;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
+#about-menu{
   text-transform: uppercase;
-  margin-left: 24px;
+  text-align: center;
 }
-.btn:active{
-  outline-color: #f54547;
-}
-.btn:visited{
-  outline-color: none;
-}
-.btn-light{
-  color: #000;
-  background-color: #fff;
-}
-.btn-light:hover{
-  background: transparent;
-  border: 1px solid #fff;
+#about-menu li{
+  display: inline-block;
+  padding: 5px 0;
+  margin: 0 25px;
+  text-transform: uppercase;
+  font-size: 20px;
   color: #fff;
+  font-family: 'Open Sans', sans-serif;
 }
-.btn-border{
-  color: #fff;
-  border: 1px solid #fff;
-  background-color: transparent;
+#about-menu li:hover{
+  border-bottom: 1px solid #fff;
 }
-.btn-border:hover{
-  background: #fff;
-  color: #000;
+.about-content{
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 2.2;
+}
+.about-us{
+
+}
+.history{
+  display: none;
+}
+.present-day{
+  display: none;
 }
 
 footer{
@@ -146,15 +126,9 @@ footer{
   .container{
     max-width: 1000px;
   }
-  .btn{
-    width: 140px;
-  }
 }
 @media all and (max-width: 1024px ){
   .container{
     max-width: 900px;
-  }
-  .btn{
-    width: 130px;
   }
 }

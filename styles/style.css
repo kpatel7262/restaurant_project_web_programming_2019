@@ -14,17 +14,25 @@ font-family: 'Open Sans', sans-serif;
 }
 
 /*header, breakfast, dessert*/
-.flex-header, .flex-nav, .flex-footer{
+.flex-header, .flex-nav, .flex-footer, .menu-nav{
 	display:flex;
 }
 .flex-breakfast, .flex-drinks,.flex-dessert{
 	display:flex;
 	flex-flow:row wrap;
 }
-.flex-header li, .flex-nav li{
+.flex-header li, .flex-nav li, .menu-nav li{
 	list-style:none;
 	margin-left:0.7em;
 }
+.menu-type{
+	flex:1 0 0;
+	padding:1em;
+	background-color:blue;
+	border-radius:10px;
+	text-align:center;
+}
+
 
 #logo {
 	flex:1 0 50%;
@@ -38,7 +46,7 @@ font-family: 'Open Sans', sans-serif;
 	background-color:#23272a;
 }*/
 
-h2{
+h2, h1{
 	text-align:center;
 }
 ul li a {
@@ -65,22 +73,11 @@ aside{
 .flex-lunch li:nth-child(2n), .flex-dinner li:nth-child(2n){
 	border:1px solid #939699;
 }
-
-/*dinner
-.flex-dinner{
-	display:flex;
-	flex-flow:row wrap;
-}
-.flex-dinner li{
-	flex:1 0 33.3%;
-	margin-bottom:1em;
-	list-style:none;
-}
-.flex-dinner li:nth-child(2n){
-	border:1px solid #939699;
-}*/
 .social-icons img{
   width: 25px;
   height: 25px;
   margin-left: 10px;
+}
+.social-icons, .copyright{
+	flex:1 0 50%;
 }

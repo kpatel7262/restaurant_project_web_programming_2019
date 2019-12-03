@@ -48,11 +48,16 @@ header {
   border-bottom: 1px solid #fff;
 }
 
+main{
+  position: relative;
+  height: 92vh;
+}
 .container{
   max-width: 1200px;
   margin: 0 auto;
   position: relative;
 }
+
 
 footer{
   position: relative;
@@ -77,15 +82,11 @@ footer{
   .container{
     max-width: 1000px;
   }
-  .btn{
-    width: 140px;
-  }
+  
 }
 @media all and (max-width: 1024px ){
   .container{
     max-width: 900px;
   }
-  .btn{
-    width: 130px;
-  }
+  
 }

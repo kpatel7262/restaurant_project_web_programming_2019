@@ -7,11 +7,12 @@ html {
 }
 * {
   margin: 0;
- }
+  padding: 0;
+}
 
 body {
   height: 100vh;
-  background-image: url('../home-images/bg.jpg');
+  background-image: url('home-images/bg.jpg');
   color: #fff;
 }
 
@@ -46,14 +47,7 @@ header {
 #menu li:hover{
   border-bottom: 1px solid #fff;
 }
-.content ul{
-   color: #fff;
-    padding: 3px 0px;
-	margin-left:4em;;
-}
-.page_item a{
-	color:white;
-}
+
 main{
   position: relative;
   height: 92vh;
@@ -63,25 +57,8 @@ main{
   margin: 0 auto;
   position: relative;
 }
-.wrapper{
-	font-style: italic;
-    padding: 40px 0px;
-    margin-left: 4em;
-	font-size: large;
-}
-.main-title-header{
-    margin: 0 auto;
-  	float:left;
-}
-.subtitle{
-	font-style: italic;
-    margin-left: 2em;
-	padding-bottom:1em;
-}
-.content {
-    padding: 60px 0;
-	margin-left:4em;
-}
+
+
 footer{
   position: relative;
 }

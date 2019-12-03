@@ -81,3 +81,13 @@ aside{
 .social-icons, .copyright{
 	flex:1 0 50%;
 }
+
+#openingstbl{
+	margin:0 auto;
+}
+td{
+	max-width:33%;
+}
+tbody> tr{
+	margin-top:5em;
+}

@@ -11,7 +11,7 @@
          <header>
       <div class="container">
         <div id="logo">
-          <a href="#"><img src="home-images/logo.png" alt="logo"></a>
+          <a href="#"><img src="images/logo.png" alt="logo"></a>
         </div>
         <nav id="main-nav">
           <ul id="menu">
@@ -28,25 +28,25 @@
       </div>
     </header>
         <div class="container">
-        <p>feel free to contact us with any questions or suggestions.</p>
-        <form>   
+        <p>Feel free to contact us with any questions or suggestions. Please note that al fields are required.</p>
+        <form action="#" method="post">   
             <div>
                 <label for="customer-fname">First Name:</label>
-                <input type="text" id="customer-fname" name="customer-fname">
+                <input type="text" id="customer-fname" name="customer-fname" required><span id="fname-error"></span>
                 <label for="customer-lname">Last Name:</label>
-                <input type="text" id="customer-lname" name="customer-fname">
+                <input type="text" id="customer-lname" name="customer-fname" required><span id="lname-error"></span>
             </div>
             <div>
                 <label for="customer-email">E-mail:</label>
-                <input type="text" id="customer-email" name="customer-email">
+                <input type="text" id="customer-email" name="customer-email" required><span id="email-error"></span>
             </div>
             <div>
                 <label for="contact-subject">Subject:</label>
-                <input type="text" id="contact-subject" name="contact-subject">
+                <input type="text" id="contact-subject" name="contact-subject" required>
             </div>
             <div>
                 <label for="contact-message">Message:</label>
-                <input type="text" id="contact-message" name="contact-message">
+                <input type="text" id="contact-message" name="contact-message" required>
             </div>
             <div>
                 <button type="submit" id="contact-submit" name="contact-submit">SUBMIT</button>
@@ -60,16 +60,16 @@
         </section>
               <footer class="container">
       <div class="social-icons">
-        <a href="#"><img src="home-images/Instagram.png" alt=""></a>
-        <a href="#"><img src="home-images/Facebook.png" alt=""></a>
-        <a href="#"><img src="home-images/Twitter.png" alt=""></a>
-        <a href="#"><img src="home-images/WhatsApp.png" alt=""></a>
+        <a href="#"><img src="images/Instagram.png" alt=""></a>
+        <a href="#"><img src="images/Facebook.png" alt=""></a>
+        <a href="#"><img src="images/Twitter.png" alt=""></a>
+        <a href="#"><img src="images/WhatsApp.png" alt=""></a>
       </div>
       <div class="copyright">
         &copy; Copyright. All Rights Reserved. 2019
       </div>
     </footer>
         </div>
-        <script type="text/javascript" src="javascript/contactus.js"></script>
+        <script type="text/javascript" src="scripts/contactus.js"></script>
     </body>
 </html>

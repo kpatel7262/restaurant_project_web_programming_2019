@@ -1,10 +1,10 @@
 jQuery(document).ready(function(){
 	$('.try').hide();
-	/*$('h2').hide();*/
-	$('h2').click(function(){
+	$('.menu-type').click(function(){
 		$('.try').hide();
-		$(this).next('.try').show();
+		$('.'+this.getAttribute('data-toggle-id')).show();
 	});//end of click
+	/*careers*/
 	$('.desc').hide();
 	$('tr').click(function(){
 		$('.desc').hide();

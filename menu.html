@@ -30,16 +30,17 @@
 			<main>
 				<h1> Rocco's Menu</h1>
 				<ul class="menu-nav">
-					<li class="menu-type">Breakfast</li>
-					<li class="menu-type">Lunch</li>
-					<li class="menu-type">Dinner</li>
-					<li class="menu-type">Drinks</li>
-					<li class="menu-type">Dessert</li>
+					<li class="menu-type" data-toggle-id="flex-breakfast">Breakfast</li>
+					<li class="menu-type" data-toggle-id="flex-lunch">Lunch</li>
+					<li class="menu-type" data-toggle-id="flex-dinner">Dinner</li>
+					<li class="menu-type" data-toggle-id="flex-drinks">Drinks</li>
+					<li class="menu-type" data-toggle-id="flex-dessert">Dessert</li>
 				</ul>
 			</main>
 			
-			<h2>Breakfast Menu</h2>
-			<section class="flex-breakfast try">
+			
+			<section class="flex-breakfast try menuSection">
+				<h2>Breakfast Menu</h2>
 				<section>
 					<ul>
 						<li><img src="images/breakfast/prosciutto_focaccia.jpg" width="275" height="183" alt="an image of prosciutto focaccia"><div>PROSCIUTTO FOCACCIA</div><div>Roasted Garlic Mayo, Arugula, Roasted Peppers, Tomato, Brie, Prosciutto Ham.</div></li>
@@ -53,6 +54,8 @@
 					<img src="images/breakfast/breakfast_sidebar.jpg" width="500" height="500" alt="" aria-hidden="true">
 				</aside>
 			</section>
+			
+			<section class="menuSection">
 				<h2>Lunch Menu</h2>
 					<ul class="flex-lunch try">
 						<li><div>Florentine</div><div>Shrimps, Mushroom,  Cream, Fettuccine Tomato sauce, Garlic.</div><img src="images/lunch/florentine.png" width="275" height="183" alt="an image of Florentine"></li>
@@ -65,6 +68,9 @@
 						<li><div>Shrimps</div><div>Shrimps, Tartar Sauce, Beanie Sauce, Fresh Vegetables.</div><img src="images/lunch/shrimps.png" width="275" height="183" alt="an image of shrimps"></li>
 						<li><div>Spaghetti</div><div>Mince Meat, Tomato Parsley Spaghetti, Cari.</div><img src="images/lunch/spaghetti.png" width="275" height="183" alt="an image of spaghetti"></li>
 					</ul>
+				</section>
+				
+				<section class="menuSection">
 				<h2>Dinner Menu</h2>
 					<ul class="flex-dinner try">
 						<li><div>Florentine</div><div>Shrimps, Mushroom,  Cream, Fettuccine Tomato sauce, Garlic.</div><img src="images/breakfast/prosciutto_focaccia.jpg" width="275" height="183" alt="an image of prosciutto focaccia"></li>
@@ -80,8 +86,11 @@
 						<li><div>Spaghettini Salsicce</div><div>Spaghettini, Italian sausage, rapine, sun-dried tomatoes, and red chillies in aglio e olio.</div><img src="images/breakfast/mushroom_panini.jpg" width="275" height="183" alt="an image of mushroom panini"></li>
 						<li><div>Penne alla Vodka</div><div>Penne, pancetta, in a tomato vodka cream sauce with peppercorns.</div><img src="images/breakfast/eggs_sausage.jpg" width="275" height="183" alt="an image of italian eggs and sausage"></li>
 					</ul>
-				<h2>Drinks Menu</h2>
-			<section class="flex-drinks try">
+				</section>
+				
+				
+			<section class="flex-drinks try menuSection">
+			<h2>Drinks Menu</h2>
 				<section>
 					<ul>
 						<li><img src="images/breakfast/mushroom_panini.jpg" width="275" height="183" alt="an image of prosciutto pinot grigio villa sandi"><div>PINOT GRIGIO, VILLA SANDI</div></li>
@@ -99,8 +108,11 @@
 					<img src="images/breakfast/mushroom_panini.jpg" width="500" height="500" alt="" aria-hidden="true">
 				</aside>
 			</section>
+			
+			
+			
+			<section class="flex-dessert try menuSection">
 			<h2>Dessert Menu</h2>
-			<section class="flex-dessert try">
 				<section>
 				<ul>
 					<li><img src="images/dessert/tiramisu.jpeg" width="275" height="183" alt="an image of tiramisu"><div>TIRAMISU</div><div>Home made Italian espresso cheese cake with ricotta and mascarpone infused with Italian Liquors.</div></li>

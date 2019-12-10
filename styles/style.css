@@ -42,9 +42,9 @@ font-family: 'Open Sans', sans-serif;
 	flex:1 0 50%;
 	margin-right:1em;
 }
-/*header{
-	background-color:#23272a;
-}*/
+header{
+	height: 8vh;
+}
 
 h2, h1{
 	text-align:center;
@@ -78,16 +78,21 @@ aside{
   height: 25px;
   margin-left: 10px;
 }
-.social-icons, .copyright{
-	flex:1 0 50%;
+.flex-footer{
+	justify-content:space-between;
+}
+.copyright{
+	order:-1;
 }
 
 #openingstbl{
 	margin:0 auto;
+	padding:3em;
+	margin-bottom:6em;
 }
-td{
+/*td{
 	max-width:33%;
 }
 tbody> tr{
 	margin-top:5em;
-}
+}*/

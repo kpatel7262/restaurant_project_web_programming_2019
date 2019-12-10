@@ -1,26 +1,39 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Gift Cards</title>
-    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="styles/giftcards.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300|Ovo&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript">
+        function subscribe_bronze() {
+        alert("Wohooo! You have successfully subscribe to BRONZE card");
+      }
+
+      function subscribe_silver() {
+        alert("Wohooo! You have successfully subscribe to SILVER card");
+      }
+
+      function subscribe_gold() {
+        alert("Wohooo! You have successfully subscribe to GOLD card");
+      }
+
+    </script>
+
   </head>
   <body>
     <header>
       <div class="container">
         <div id="logo">
-          <a href="#"><img src="home-images/logo.png" alt="logo"></a>
+          <a href="home.html"><img src="home-images/logo.png" alt="logo"></a>
         </div>
         <nav id="main-nav">
           <ul id="menu">
-            <a href="#"><li>Home</li></a>
-            <a href="#"><li>Menu</li></a>
-            <a href="#"><li>Events</li></a>
-            <a href="#"><li>Reservation</li></a>
-            <a href="#"><li>Gift Card</li></a>
+            <a href="home.html"><li>Home</li></a>
+            <a href="menu.html"><li>Menu</li></a>
+            <a href="giftcards.html"><li>Gift Card</li></a>
             <a href="#"><li>Awards</li></a>
             <a href="#"><li>Careers</li></a>
             <a href="#"><li>Contact</li></a>
@@ -41,7 +54,7 @@
 		    <p>For every $150 you spend, receive a $20 Bronze gift card PLUS a $10 DoorDash bonus card for yourself.</p>
 		    <img src="images/giftcards/bronze.png" alt="bronze gift card" />
 		    <div>
-		    	<input type="button" name="subscribe" value="SUBSCRIBE" />
+		    	<input id="b_subscribe" type="button" name="subscribe" value="SUBSCRIBE" onclick="subscribe_bronze()"/>
 		    </div>
 		  </div>
 		  <div class="cards">
@@ -51,7 +64,7 @@
 		    <p>For every $300 you spend, receive a $50 Silver gift card PLUS a $20 DoorDash bonus card for yourself.</p>
 		    <img src="images/giftcards/silver.png" alt="silver gift card" />
 		    <div>
-		    	<input type="button" name="subscribe" value="SUBSCRIBE" />
+		    	<input id="s_subscribe" type="button" name="subscribe" value="SUBSCRIBE" onclick="subscribe_silver()" />
 		    </div>
 		  </div>
 		  <div class="cards">
@@ -62,7 +75,7 @@
 		    <p>For every $500 you spend, receive a $100 Gold gift card PLUS a $50 DoorDash bonus card for yourself.</p>
 		    <img src="images/giftcards/gold.png" alt="gold gift card" />
 		    <div>
-		    	<input type="button" name="subscribe" value="SUBSCRIBE" />
+		    	<input id="g_subscribe" type="button" name="subscribe" value="SUBSCRIBE" onclick="subscribe_gold()" />
 		    </div>
 		  </div>
 		</div>
@@ -81,3 +94,4 @@
     </footer>
   </body>
 </html>
+

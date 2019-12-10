@@ -14,7 +14,7 @@ font-family: 'Open Sans', sans-serif;
 }
 
 /*header, breakfast, dessert*/
-.flex-header, .flex-nav, .flex-footer, .menu-nav{
+.flex-header, .flex-nav, .menu-nav{
 	display:flex;
 }
 .flex-breakfast, .flex-drinks,.flex-dessert{
@@ -53,9 +53,6 @@ ul li a {
 	text-decoration:none;
 	color:#ffffff;
 }
-aside{
-	align-self:center;
-}
 
 .hidden{
 	display:none;
@@ -73,22 +70,32 @@ aside{
 .flex-lunch li:nth-child(2n), .flex-dinner li:nth-child(2n){
 	border:1px solid #939699;
 }
-.social-icons img{
+footer{
+  position: relative;
+}
+.social-icons{
+  position: absolute;
+  bottom: 45px;
+  right: 0;
+}
+.social-icons a > img{
   width: 25px;
   height: 25px;
   margin-left: 10px;
 }
-.flex-footer{
-	justify-content:space-between;
-}
 .copyright{
-	order:-1;
+  position: absolute;
+  bottom: 45px;
+  left: 0;
+  color: #9f9fa094;
 }
+
 
 #openingstbl{
 	margin:0 auto;
 	padding:3em;
 	margin-bottom:6em;
+	border:1px solid black;
 }
 /*td{
 	max-width:33%;

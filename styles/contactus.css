@@ -22,12 +22,13 @@ header {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-#logo {
+/*#logo {
   position: absolute;
   left: 0;
   top: 15px;
   max-width: 100%;
-}
+}*/
+
 #main-nav{
   height: 100%;
   position: absolute;
@@ -44,6 +45,7 @@ header {
   color: #fff;
   font-family: 'Open Sans', sans-serif;
 }
+
 #menu li:hover{
   border-bottom: 1px solid #fff;
 }
@@ -53,6 +55,8 @@ header {
   margin: 0 auto;
   position: relative;
 }
+
+
 
 footer{
   position: relative;

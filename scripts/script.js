@@ -1,5 +1,6 @@
 jQuery(document).ready(function(){
-	$('.try').hide();
+	$('.menu-section').hide();
+	$('h2').hide();
 	$('.menu-type').click(function(){
 		$('.try').hide();
 		$('.'+this.getAttribute('data-toggle-id')).show();

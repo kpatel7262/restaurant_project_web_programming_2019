@@ -5,13 +5,10 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
-* {
-  margin: 0;
- }
 
 body {
   height: 100vh;
-  background-image: url('../home-images/bg.jpg');
+  background-image: url('../images/bg.jpg');
   color: #fff;
 }
 
@@ -49,10 +46,17 @@ header {
 .content ul{
    color: #fff;
     padding: 3px 0px;
-	margin-left:4em;;
+	margin-left:10em;
+	list-style-type: none;
+
+}
+.content a{
+	color:#fff;
+	
 }
 .page_item a{
 	color:white;
+	text-align:center;
 }
 main{
   position: relative;
@@ -63,24 +67,31 @@ main{
   margin: 0 auto;
   position: relative;
 }
-.wrapper{
-	font-style: italic;
-    padding: 40px 0px;
-    margin-left: 4em;
-	font-size: large;
-}
+
 .main-title-header{
     margin: 0 auto;
   	float:left;
+	padding-top:2em;
 }
-.subtitle{
+
+#direction a, h4{
+	float:right;
+	display:inline-block;
+}
+
+#sitemapHeader{
 	font-style: italic;
     margin-left: 2em;
+	padding-top:1em;
 	padding-bottom:1em;
 }
 .content {
-    padding: 60px 0;
-	margin-left:4em;
+    padding: 30px 60px;
+    margin-left: 6em;
+	text-align:center;
+	font-family: 'Ovo', serif;
+    font-size: 20px;
+    line-height:0.5em;
 }
 footer{
   position: relative;

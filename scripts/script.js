@@ -14,6 +14,8 @@ jQuery(document).ready(function(){
 		
 	}
 	);//end of click
+	
+	$('#date').html(new Date().toDateString());
 	/*careers*/
 	$('.desc').hide();
 	$('tr').click(function(){

@@ -2,7 +2,7 @@
 
 window.onload = function(){
 	
-alert("hi");
+//alert("hi");
 $("#box2").hide();
 $("#tryAgain").click(tryAgain);
 
@@ -13,7 +13,7 @@ var guess = 0;
 var counter=0;
 
 function startGame(){
-	alert("Enteered Start game");
+	alert("Entered Start game");
 	
 	var userGuess = document.getElementById("guessField").value; 
 
@@ -34,10 +34,10 @@ function startGame(){
 		{	 
 			if (counter ==3)
 			{
-				alert("Maximum");
+				alert("Maximum 3 attempts you have tried");
 				$("#box1").hide();
 				$("#box2").show();
-				alert("hi");
+				//alert("hi");
 				return;
 
 			}
@@ -47,10 +47,10 @@ function startGame(){
 		{ 
 			if (counter ==3)
 			{
-				alert("Maximum2");
+				alert("Maximum 3 attempts you have tried");
 				$("#box1").hide();
 				$("#box2").show();
-				alert("hi2");
+				//alert("hi2");
 				return;
 			}
 			

@@ -6,18 +6,18 @@ jQuery(document).ready(function () {
     $("#about_us").click(function(){
         $(".history").hide();
         $("present-day").hide;
-        $(".about-us").toggle();
+        $(".about-us").show();
     });
     
     $("#history").click(function(){
         $(".about-us").hide();
         $(".present-day").hide();
-        $(".history").toggle();
+        $(".history").show();
     });
     
     $("#present_day").click(function (){
         $(".about-us").hide();
         $(".history").hide();
-        $(".present-day").toggle();
+        $(".present-day").show();
     });
 });

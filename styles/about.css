@@ -96,12 +96,13 @@ main{
 .about-us{
 
 }
-.history{
+
+/*.history{
   display: none;
 }
 .present-day{
   display: none;
-}
+}*/
 
 footer{
   position: relative;

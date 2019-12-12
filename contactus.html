@@ -28,24 +28,29 @@
       </div>
     </header>
         <div class="container">
-        <img id="logo" alt="rocco logo" src="images/logo-main.png">
-        <p>Feel free to contact us with any questions or suggestions. Please note that all fields are required.</p>
-        <form action="#" method="post">   
-            <div>
+        <img id="logo-main" alt="rocco logo" src="images/logo-main.png">
+            <p class="intro">Feel free to contact us with any questions or suggestions.</p> 
+            <p class="intro">Please note that all fields are required.</p>
+        <form action="#" method="post"> 
+        <div class="flex-container">    
+            <div id="first-name" class="form1">
                 <label for="customer-fname">First Name:</label>
                 <input type="text" id="customer-fname" name="customer-fname" required><span id="fname-error"></span>
+            </div>    
+            <div id="last-name" class="form1">    
                 <label for="customer-lname">Last Name:</label>
                 <input type="text" id="customer-lname" name="customer-fname" required><span id="lname-error"></span>
             </div>
-            <div>
+        </div>    
+            <div class="form1">
                 <label for="customer-email">E-mail:</label>
                 <input type="text" id="customer-email" name="customer-email" required><span id="email-error"></span>
             </div>
-            <div>
+            <div class="form1">
                 <label for="contact-subject">Subject:</label>
                 <input type="text" id="contact-subject" name="contact-subject" required>
             </div>
-            <div>
+            <div id="message" class="form1">
                 <label for="contact-message">Message:</label>
                 <input type="text" id="contact-message" name="contact-message" required>
             </div>
@@ -53,12 +58,11 @@
                 <button type="submit" id="contact-submit" name="contact-submit">SUBMIT</button>
             </div>
         </form> 
-        <section>
+        <!--<section>
             <p>Call us: 324-789-6378</p>
             <p>E-mail us at: contactus@rocco.com</p>
             <p>205 Humber College Blvd, Etobicoke, ON M9W 5L7</p>
-            
-        </section>
+        </section>-->
               <footer class="container">
       <div class="social-icons">
         <a href="#"><img src="images/Instagram.png" alt=""></a>

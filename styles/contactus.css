@@ -22,12 +22,12 @@ header {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-/*#logo {
-  position: absolute;
+#logo {
+  position:relative;  
   left: 0;
   top: 15px;
   max-width: 100%;
-}*/
+}
 
 #main-nav{
   height: 100%;
@@ -56,11 +56,68 @@ header {
   position: relative;
 }
 
+#logo-main {
+    position:relative;
+    left:18%;
+    width:13%;
+}
 
+.intro {
+    font-family:"Open Sans", sans-serif;
+    font-size:1.5em;
+}
+
+.intro:nth-child(3) {
+    font-size:1em;
+    margin-bottom:1em;
+}
+
+.form1 {
+    border:1px solid #fff;
+    width:50%;
+    height:40px;
+    padding:0.5em;
+    margin-bottom:1em;
+}
+
+label {
+    font-family:"Open Sans", sans-serif;
+}
+
+input {
+    background-color:transparent;
+    border:none; 
+}
+
+#message {
+    height:80px;
+}
+
+.flex-container {
+    display:flex;
+    flex-flow:row wrap;
+    width:50%;
+}
+
+#last-name {
+    flex:0 0 50%;
+    margin-left:1em;
+}
+
+#first-name {
+    flex:1 0 0;
+}
+
+#contact-submit {
+    width:100px;
+    height:50px;
+}
 
 footer{
-  position: relative;
+  position: relative;  
+  padding-bottom: 45px;
 }
+
 .social-icons{
   position: absolute;
   bottom: 45px;

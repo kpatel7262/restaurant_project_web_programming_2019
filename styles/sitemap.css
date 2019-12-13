@@ -5,6 +5,10 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+* {
+  margin: 0;
+  padding: 0;
+}
 
 body {
   height: 100vh;
@@ -70,8 +74,9 @@ main{
 
 .main-title-header{
     margin: 0 auto;
-  	float:left;
-	padding-top:2em;
+ 	padding-top:2em;
+	text-transform: uppercase;
+    font-family: 'Ovo', serif;
 }
 
 #direction a, h4{
@@ -81,17 +86,18 @@ main{
 
 #sitemapHeader{
 	font-style: italic;
-    margin-left: 2em;
-	padding-top:1em;
+    /* margin-left: 2em; */
+	/* padding-top:1em; */
 	padding-bottom:1em;
 }
 .content {
-    padding: 30px 60px;
+     padding: 0px 30px;
     margin-left: 6em;
 	text-align:center;
-	font-family: 'Ovo', serif;
+	text-transform: uppercase;
+    font-family: 'Ovo', serif;
     font-size: 20px;
-    line-height:0.5em;
+    line-height: 2.5em;
 }
 footer{
   position: relative;

@@ -5,7 +5,10 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
-
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
 	height: 100vh;
 	background-image: url('../images/bg.jpg');
@@ -71,6 +74,7 @@ main{
 }
 #main_title{
 	text-align:center;
+	padding-bottom: 1.5em;
 }
 input{
 	float:center;
@@ -81,15 +85,18 @@ input{
 	border:solid;
 }
 label{
-	text-decoration:uppercase;
+	text-transform: uppercase;
+    font-family: 'Ovo', serif;
 	color:black;
 	font-weight:bold;
 }
 p{
-  	font-family: 'Open Sans', sans-serif;
-	font-size: 14px;
-	text-transform: uppercase;
+  	
+	font-size: 17px;
 	color:black;
+	text-transform: uppercase;
+    font-family: 'Ovo', serif;
+	padding-bottom: 1.5em;
   
 }
 .btn{
@@ -98,16 +105,20 @@ p{
 	  background:skyblue;
 	  width: 100px;
 	  height: 30px;
-	  font-family: 'Open Sans', sans-serif;
+	  text-transform: uppercase;
+      font-family: 'Ovo', serif;
+    
+}
 	  font-size: 14px;
 	  margin-left: 24px;
 }
 label{
 	width: 180px;
 	height: 42px;
-	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	text-transform: uppercase;
+    font-family: 'Ovo', serif;
+	
 }
 
 footer{

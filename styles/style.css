@@ -55,6 +55,9 @@ font-family: 'Open Sans', sans-serif;
 	border-bottom:1px solid #fff;
 	color:red;
 }
+div.menu-item{
+	text-transform:capitalize;
+}
 
 main{
 	padding-top:2em;

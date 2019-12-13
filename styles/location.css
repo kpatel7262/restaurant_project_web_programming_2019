@@ -22,7 +22,6 @@ header {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-
 #logo {
   position: absolute;
   left: 0;
@@ -50,6 +49,7 @@ header {
 }
 
 main{
+
   position: relative;
   height: 92vh;
 }
@@ -144,78 +144,73 @@ footer{
   color: #9f9fa094;
 }
 
+/*---------------------Location css------------------------------*/
+/*
+#map{
 
-
-/*------Gift card css--------*/
-
-main.container{
-  margin: 50px;
-  color: white;
+  margin: 100px auto;
+  width: 50%;
+  
 }
 
-/*
-#heading{
-  margin: 20px;
-  text-align: center;
-  text-decoration: underline;
+#location_details{
+  width: 50%;
 }*/
+.map_column{
+   
+  float: left;
+  width: 50%;
+  padding:10px;
+  
 
-#heading{
+}
+
+.map_row:after {
+  content:"";
+  display: table;
+  clear: both;
+}
+#address_details{
+  margin-left: 50px;
+  margin-top: 50px; 
+  padding: 10px;
+}
+
+#main_heading{
+
   margin: 0 auto;
   border-bottom: 1px solid #fff;
   width: fit-content;
   padding-bottom: 5px;
   padding-top: 60px;
+
 }
 
-.cards {
-  float: left;
-  width: 30%;
-  padding: 10px;
+.heading{
+  margin-top: 20px;
+}
+
+#location2_map{
+
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 10px 25px;
   text-align: center;
-  border-width:1px;
-  border-style: solid;
-  border-color: #94979a;
-  margin:20px;
-
-}
-
-.rating {
-  color: #b2b2b7;
-  margin: 20px 3px;
-  text-align: center;
-}
-
-.cards p{
-  margin: 10px 50px;
-  color: #adacb2;
-  text-align: justify;
-}
-
-div input{
-  height: 40px;
-  width: 25%;
-  margin: 20px;
+  text-decoration: none;
+  font-size: 14px;
+  margin: 4px 2px;
   cursor: pointer;
+  border-radius: 5px;
 }
 
-
-
-
-/*----------------Media Queries--------------*/
-@media all and (max-width: 1200px){
-  .container{
-    max-width: 1000px;
-  }
-  .btn{
-    width: 140px;
-  }
+#location2_map:hover{
+  background-color: black;
+  color: white;
 }
-@media all and (max-width: 1024px ){
-  .container{
-    max-width: 900px;
-  }
-  .btn{
-    width: 130px;
-  }
+
+p span{
+  display: block;
+  padding: 5px;
 }
+

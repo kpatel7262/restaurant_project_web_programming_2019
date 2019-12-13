@@ -41,7 +41,7 @@ function processForm(){
         eMail.focus();
         return false;
     } else {
-        eMail.style.backrgound="white";
+        eMail.style.background="white";
     }
     }//process form
 }//window onload

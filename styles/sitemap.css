@@ -85,10 +85,10 @@ main{
 }
 
 #sitemapHeader{
-	font-style: italic;
-    /* margin-left: 2em; */
-	/* padding-top:1em; */
-	padding-bottom:1em;
+	 font-style: italic;
+    margin-left: 2em;
+    padding-top: 2em;
+    padding-bottom: 1em;
 }
 .content {
      padding: 0px 30px;

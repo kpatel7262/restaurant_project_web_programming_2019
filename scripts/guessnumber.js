@@ -5,7 +5,21 @@ window.onload = function(){
 //alert("hi");
 $("#box2").hide();
 $("#tryAgain").click(tryAgain);
+$(".btn").mouseover(function(){
+  $(this).css("color", "#fff").css("background", "transparent").css("border", "1px solid #fff");
+});
 
+$(".btn").mouseleave(function(){
+  $(this).css("color", "#000").css("background", "#fff");
+});
+
+$(".btn").mouseover(function(){
+  $(this).css("color", "#000").css("background", "#fff");
+});
+
+$(".btn").mouseleave(function(){
+  $(this).css("color", "#fff").css("background", "green").css("border", "1px solid #fff");
+});
 
 }
 var  number = Math.floor(Math.random() * 10 + 1); 

@@ -32,5 +32,18 @@ $(".btn-border").mouseover(function(){
 $(".btn-border").mouseleave(function(){
   $(this).css("color", "#fff").css("background", "transparent").css("border", "1px solid #fff");
 });
-//animation for the pizza picture
+//animation for the pizza picture and left column
 $(".pizza").css("opacity", "0.5").slideToggle(1400).animate({opacity: 1});
+setTimeout(function(){
+$('.left-col').animate({opacity : 1});
+},400);
+
+//buttons redirecting to corresponding pages
+$(".btn-light").click(function(){
+  window.location.href = "contactus.html";
+});
+
+
+$(".btn-border").click(function(){
+  window.location.href = "menu.html";
+});

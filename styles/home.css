@@ -68,6 +68,7 @@ main{
   right: 0;
 }
 .left-col{
+  opacity: 0;
   position: absolute;
   width: 35%;
   left: 0;

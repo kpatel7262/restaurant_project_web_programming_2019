@@ -50,9 +50,7 @@ h3{
   color: #fff;
   font-family: 'Open Sans', sans-serif;
 }
-#menu li:hover{
-  border-bottom: 1px solid #fff;
-}
+
 
 main{
   position: relative;

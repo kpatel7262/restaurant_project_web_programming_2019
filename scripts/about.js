@@ -5,7 +5,7 @@ jQuery(document).ready(function () {
     
     $("#about_us").click(function(){
         $(".history").hide();
-        $("present-day").hide;
+        $(".present-day").hide();
         $(".about-us").show();
     });
     

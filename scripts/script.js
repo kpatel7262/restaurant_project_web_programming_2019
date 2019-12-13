@@ -14,10 +14,14 @@ jQuery(document).ready(function(){
 		
 	}
 	);//end of click
+	
+	$('#date').html(new Date().toDateString());
 	/*careers*/
 	$('.desc').hide();
 	$('tr').click(function(){
 		$('.desc').hide();
 		$(this).find('td.desc').show();
 	});//end of click table
+	
+	
 });//end of onlaod

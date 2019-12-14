@@ -14,6 +14,7 @@ body {
   height: 100vh;
   background-image: url("../images/bg.jpg");
   color: #fff;
+  margin: auto;
 }
 
 header {
@@ -149,7 +150,7 @@ footer{
 /*------Gift card css--------*/
 
 main.container{
-  margin: 50px;
+  
   color: white;
 }
 

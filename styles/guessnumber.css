@@ -45,6 +45,7 @@ header {
 }
 #menu li:hover{
   border-bottom: 1px solid #fff;
+  color:red;
 }
 main{
   position: relative;

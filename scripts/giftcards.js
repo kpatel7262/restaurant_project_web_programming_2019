@@ -20,6 +20,17 @@ function pageReady(){
       function alert3() {
         alert("Wohooo! You have successfully subscribe to GOLD card");
       }
+
+/*navbar hover effect*/
+$("li").hover(function(){
+    $(this).css("color", "red");
+    }, 
+    function(){
+    $(this).css("color", "white");
+  });
 }
-        
+
+  
+
+       
   

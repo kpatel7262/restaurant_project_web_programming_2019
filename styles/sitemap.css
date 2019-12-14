@@ -44,9 +44,9 @@ header {
   color: #fff;
   font-family: 'Open Sans', sans-serif;
 }
-#menu li:hover{
+/*#menu li:hover{
   border-bottom: 1px solid #fff;
-}
+}*/
 .content ul{
    color: #fff;
     padding: 3px 0px;
